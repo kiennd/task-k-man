@@ -9,7 +9,7 @@ setup(
     packages=find_packages(),
     entry_points={
         'console_scripts': [
-            'task-k-man = task-k-man.task-k-man:main',
+            'taskkman = taskkman.taskkman:main',
         ],
     },
     install_requires=[
